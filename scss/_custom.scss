@@ -1,0 +1,287 @@
+.top-bar{
+  background-color: #1e1e1e;
+}
+
+.top-bar-left{
+  background-color: #1e1e1e;
+}
+
+ul.menu{
+  background-color: #1e1e1e;
+}
+
+.menu-text{
+  background-color: #1e1e1e;
+  /* color: #e8e8e8; */
+  color: #e8e8e8;
+}
+
+li{
+  background-color: #1e1e1e;
+  color: #e8e8e8;
+}
+
+a{
+  color: #e8e8e8;
+  /* opacity:0; */
+}
+
+a:hover{
+  color: #ba0007;
+}
+
+.is-dropdown-submenu-first-sub{
+  background-color: #1e1e1e;
+  color: #e8e8e8;
+}
+
+input[type]{
+  background-color: #1e1e1e;
+}
+
+button[type=button]{
+  background-color: #ba0007;
+}
+
+button[type=button]:hover{
+  background-color: #870007;
+}
+
+.dropdown{
+  background-color: #000;
+  color: #000;
+}
+
+.banner2{
+  background: url('../images/banner/1_1.png');
+  width:100%;
+  height:48%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 3%;
+}
+
+h1{
+  margin-top: 3%;
+}
+
+h2{
+  font-size: 35px;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.callout{
+  border: solid 10px #3c3c3c;
+  border-style: double;
+  overflow: scroll;
+  height:350px;
+  margin-bottom: 5%;
+}
+
+.large-3 img{
+  display: block;
+  margin: auto;
+
+}
+
+#logotype{
+  background: url("../images/logotypes/martian-logotype.png");
+  width:302px;
+  height: 320px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bcg-parallax {
+  padding: 40px 0;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 8px solid #474c48;
+  border-top: 8px solid #474c48;
+}
+.bcg {
+  background: url('../images/banner/00_1.png') no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 150%;
+  top: 0;
+  z-index: 1;
+  opacity: 0.7;
+}
+.content-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1140px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Footer */
+.footer-container {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #06060d;
+}
+.footer-container .wrapper {
+  width: 80%;
+  max-width: none;
+  margin: 0 10%;
+}
+.footer-container h3 {
+  margin: 0;
+  padding: 20px 0;
+  font-weight: normal;
+  font-size: 16px;
+}
+.footer-container a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.orbit-bullets button{
+  background-color: #fff;
+  border: solid 5px #ba0007;
+  border-style: double;
+}
+
+.orbit-bullets button.is-active{
+  background-color: #ba0007;
+
+}
+
+/*#animate1 {
+    transition: transform 0.3s ease-out;
+}
+
+.zap {
+    transform: scale(2.5, 0);
+}*/
+
+#animate1 {
+  transition: opacity 0.3s ease-out;
+}
+
+.zap {
+  opacity: 0;
+}
+
+.videos-section{
+  width: 100%;
+  height: auto;
+  background-color: #474c48;
+  background: url("../images/banner/spaceshipvshorse.png") fixed;
+  color: #fff;
+  padding-top: 4%;
+  padding-bottom: 6%;
+}
+
+.videos-section h3{
+  font-size: 50px;
+  font-family: "Helvetica Neue";
+  color: #ab94b6;
+  font-weight: bolder;
+}
+
+.large-6 p{
+  font-size: 18px;
+  color: #e4e4e4;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-style: italic;
+}
+
+.responsive-embed{
+  margin-left: -13px;
+  padding-bottom: 10px;
+}
+
+.banner3 {
+  padding: 40px 0;
+  color: #fff;
+  height: auto;
+  background-color: #000;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 8px solid #474c48;
+  border-top: 8px solid #474c48;
+}
+.bthree {
+  background: url('../images/banner/00_2.png') no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  top: 0;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.content-wrapper2 {
+  width: 50%;
+  margin: 0 auto;
+  max-width: 1140px;
+  position: relative;
+  z-index: 2;
+  font-size: 15px;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.prefooter{
+  width: 100%;
+  height: auto;
+  background-color: #242424;
+  padding-bottom: 30px;
+}
+
+.bannerbutton {
+  border: 3px solid #f1f1f1;
+  color: #f1f1f1;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.bannerbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bannerbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.bannerbutton:hover span {
+  padding-right: 25px;
+}
+
+.bannerbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.large-2{
+  padding-top: 70px;
+  color: #efefef;
+  text-align: center;
+}
+
+.large-6{
+  padding-top: 40px;
+}
