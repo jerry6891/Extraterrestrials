@@ -1,5 +1,8 @@
 .top-bar{
   background-color: #1e1e1e;
+  position: fixed;
+  z-index: 99;
+  width:100%;
 }
 
 .top-bar-left{
@@ -40,11 +43,19 @@ input[type]{
 }
 
 button[type=button]{
-  background-color: #ba0007;
+
 }
 
 button[type=button]:hover{
-  background-color: #870007;
+
+}
+
+.button{
+  background-color: #ba0007;
+}
+
+.button:hover{
+  background-color: #6d090d;
 }
 
 .dropdown{
@@ -77,6 +88,15 @@ h2{
   overflow: scroll;
   height:350px;
   margin-bottom: 5%;
+}
+
+.callout a{
+  color: #ba0007;
+  font-weight: bold;
+}
+
+.callout a:hover{
+  color: #53000e;
 }
 
 .large-3 img{
@@ -148,6 +168,10 @@ h2{
   background-color: #fff;
   border: solid 5px #ba0007;
   border-style: double;
+}
+
+.orbit-bullets button:hover{
+  background-color: #ba0007;
 }
 
 .orbit-bullets button.is-active{
